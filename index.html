@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* General body styles */
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Light cyan background */
+            color: #212121; /* Dark gray text */
+        }
+
+        /* Header styles */
+        header {
+            background-color: #00796b; /* Teal background */
+            color: #ffffff; /* White text */
+            text-align: center;
+            padding: 5rem 0;
+            position: relative;
+            border-bottom: 4px solid #4caf50; /* Green underline */
+        }
+
+        .header-content h2 {
+            font-size: 4rem;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .header-content p {
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Profile picture styles */
+        .profile-picture {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 4px solid #ffffff; /* White border around the picture */
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #004d40; /* Dark teal */
+            color: #ffffff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: #ffeb3b; /* Yellow hover effect */
+        }
+
+        /* Section content styles */
+        .section-content {
+            background-color: #ffffff;
+            padding: 3rem;
+            margin: 2rem auto;
+            max-width: 1000px;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #00796b; /* Teal color */
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+        }
+
+        /* Button styles */
+        .download-button {
+            background-color: #ffeb3b; /* Yellow button */
+            color: #212121;
+            padding: 1rem 2.5rem;
+            text-decoration: none;
+            border-radius: 30px;
+            display: inline-block;
+            margin-top: 25px;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .download-button:hover {
+            background-color: #fbc02d; /* Darker yellow on hover */
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #004d40; /* Dark teal */
+            color: #ffffff;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            .profile-picture {
+                width: 100px;
+                height: 100px;
+                top: 40px;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .section-content {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="D:\jagadees\photo.jpeg" alt="Your Profile Picture" class="profile-picture" style="position: absolute;left: 400px;">
+            <h1>Sneha K</h1>
+            <p>computer operator</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>  A computer operator is someone who manages and oversees the operation of computer systems and networks, ensuring that everything runs smoothly. They may handle tasks such as:Monitoring system performance and troubleshooting issues
+                Running and maintaining scheduled tasks and programs
+                Ensuring data is backed up and managing file systems
+                Performing routine system checks and maintenance. </p>
+            </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>BSC - Bharathiar University</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>C Programming</li>
+                <li></li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Login Page in HTML</a></li>
+                <li><a href="#">attendence Management System using Java</a></li>
+                <li><a href="#">Student mark sheet in Excel</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-content">
+            <h2>Resume</h2>
+            <a href="D:\jagadees\Resume (1) (1).pdf" target="_blank" class="download-button">Download CV</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sneha K</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
